@@ -10,7 +10,7 @@ export default new DataSource({
   username: 'postgres',
   password: 'root',
   database: 'nestjs_pikabu',
-  entities: [__dirname + '/**/*.entity{.ts,.js}'],
+  entities: [__dirname + '/../**/*.entity{.ts,.js}'],
   synchronize: false,
   logging: true,
   migrations: [__dirname + '/migrations/**/*{.ts,.js}'],

@@ -7,7 +7,7 @@ export default registerAs('database', () => ({
   username: 'postgres',
   password: 'root',
   database: 'nestjs_pikabu',
-  entities: [__dirname + '/**/*.entity{.ts,.js}'],
+  entities: [__dirname + '/../**/*.entity{.ts,.js}'],
   synchronize: false,
   migrations: [__dirname + '/migrations/**/*{.ts, .js}'],
   migrationsRun: true,
