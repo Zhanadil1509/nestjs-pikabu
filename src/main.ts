@@ -1,7 +1,7 @@
-import * as process from "node:process";
+import * as process from 'node:process';
 
-if(!process.env.IS_TS_NODE) {
-  require('module-alias/register')
+if (!process.env.IS_TS_NODE) {
+  require('module-alias/register');
 }
 
 import { NestFactory } from '@nestjs/core';
