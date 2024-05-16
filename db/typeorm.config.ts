@@ -1,7 +1,4 @@
-import { ConfigService } from '@nestjs/config';
 import { DataSource } from 'typeorm';
-
-const configService = new ConfigService();
 
 export default new DataSource({
   type: 'postgres',
